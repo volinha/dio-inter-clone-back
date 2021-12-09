@@ -1,6 +1,7 @@
 # Backend App Inter - Semana Front-End Inter/DIO
 
-Criado em NodeJS, Express e REST API durante a Semana Front-End do Banco Inter em parceria com a DIO.
+Criado em NodeJS, Express e REST API durante a Semana Front-End do [Banco Inter](https://www.bancointer.com.br) em parceria com a [DIO](https://digitalinnovation.one).
+Banco de dados em [PostgreSQL](https://www.postgresql.org) gerenciado por [TypeORM](https://typeorm.io/#/).
 
 ## 🛠️ Ferramentas Necessárias
 
@@ -144,6 +145,7 @@ Gerando assim, a histórico de pagamentos do usuário. Se o token for inválido 
 - [JSON Web Tokens (JWT)](https://jwt.io)
 - [nodeJS](https://nodejs.org/en/download/)
 - [nodemon](https://www.npmjs.com/package/nodemon)
+- [TypeORM](https://typeorm.io/#/)
 - [TypeScript](https://www.typescriptlang.org)
 - [Visual Studio Code](https://code.visualstudio.com)
 

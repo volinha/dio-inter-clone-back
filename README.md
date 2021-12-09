@@ -138,8 +138,10 @@ Gerando assim, a histórico de pagamentos do usuário. Se o token for inválido 
 
 ## Frameworks/IDEs/Libs
 
+- [CryptoJS](https://cryptojs.gitbook.io/docs/)
 - [Express](https://expressjs.com/pt-br/)
 - [js-base64](https://www.npmjs.com/package/js-base64)
+- [JSON Web Tokens (JWT)](https://jwt.io)
 - [nodeJS](https://nodejs.org/en/download/)
 - [nodemon](https://www.npmjs.com/package/nodemon)
 - [TypeScript](https://www.typescriptlang.org)

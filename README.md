@@ -16,25 +16,25 @@ Banco de dados em [PostgreSQL](https://www.postgresql.org) gerenciado por [TypeO
 - Clonar este repositório:
 
  ``` bash 
- git clone https://github.com/volinha/dio-inter-backend
+ $ git clone https://github.com/volinha/dio-inter-backend
  ```
 
 - Abrir a pasta na IDE (ou interpretador de comandos) e executar o comando para instalar os módulos:
 
  ``` bash 
- npm install
+ $ npm install
  ```
 
 - Subir a instância no docker-compose:
 
  ``` bash 
- docker-compose up -d
+ $ docker-compose up -d
  ```
 
 - Executar a aplicação
 
  ``` bash 
- npm run dev
+ $ npm run dev
  ```
 
 # Utilização via Insomnia
@@ -59,7 +59,7 @@ Inserir a variável `_.BASE_URL` antes dos links das requisições.
 
 Para criar o usuário é necessário inserir o JSON com os seguintes campos:
 
-``` bash
+``` json
 {
 	"firstName": "Nome",
 	"lastName": "Sobrenome",
@@ -77,7 +77,7 @@ Gerando assim, o token do usuário criado, se já houver outro com o mesmo e-mai
 
 Para logar o usuário é necessário inserir o JSON com os seguintes campos:
 
-``` bash
+``` json
 {
 	"email": "email@email.com",
 	"password": "senha"
@@ -119,7 +119,7 @@ Gerando assim, a transação de pagamento. Se o token for inválido ou for o mes
 
 Para gerar a requisição é necessário um JSON com o valor:
 
-``` bash
+``` json
 {
   "value": 100.00 
 }
